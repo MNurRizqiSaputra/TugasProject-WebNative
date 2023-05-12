@@ -1,0 +1,32 @@
+<?php
+$id = $_REQUEST['id'];
+$model = new Kartu();
+$kartu = $model->getKartu($id);
+
+?>
+
+<h1 class="mt-4">Detail Kartu</h1>
+<div class="card-body">
+    <div class="card mb-4">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        <tr>
+                                            <th>Kode</th>
+                                            <th>Nama Kartu</th>
+                                            <th>Diskon</th>
+                                            <th>Iuran</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><?= $kartu['kode']?></td>
+                                            <td><?= $kartu['nama']?></td>
+                                            <td><?= $kartu['diskon']?></td>
+                                            <td><?= $kartu['iuran']?></td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                    <a class="btn btn-primary" href="index.php?url=kartu" role="button">Back</a>
+</div>
+</div>
