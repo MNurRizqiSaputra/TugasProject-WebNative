@@ -1,7 +1,13 @@
-<<<<<<< HEAD
-# web_native
-Project native menggunakan PHP
-=======
 # TugasProject-WebNative
-WEB NATIVE PHP
->>>>>>> 5fa9baeed4fd16a5f40ac1cd5fc8ac4b75693bea
+
+## Tugas 8 PHP
+9 Mei 2023
+PDO CREATE
+
+## Tugas 9 PHP
+10 Mei 2023
+PDO UPDATE DELETE
+
+## Tugas 10 PHP
+11 - 12 Mei 2023
+Otentikasi dan Otorisasi User
